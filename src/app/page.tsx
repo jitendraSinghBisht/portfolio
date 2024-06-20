@@ -1,10 +1,10 @@
-import { Navbar } from "@/components/navbar";
+import { HeroHighlight } from "@/components/ui/hero-highlight";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
-      <Navbar className="top-6" />
-    </>
+      <HeroHighlight>
+        <></>
+      </HeroHighlight>
   );
 }
